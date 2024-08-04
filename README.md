@@ -30,16 +30,7 @@ To get started with this project:
     cd MyFirstProject_js
     ```
 
-3. Open the `index.html` file in your browser to play the game.
+3. Open the `logIn.html` file in your browser to play the game.
 
-## Contributing
 
-Feel free to fork the repository and submit pull requests. I welcome contributions and suggestions!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or feedback, please reach out to me at [your-email@example.com](mailto:your-email@example.com).
