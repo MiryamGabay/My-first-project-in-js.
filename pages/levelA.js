@@ -203,13 +203,13 @@ function end() {
 
 function checkDiv() {
     console.log("enter to check div");
-    if (score == 20) {
+    if (score == 100) {
         
         document.querySelectorAll("#divC")[1].style.display = "block";
         displayDiv();
         
     }
-    if (score == 30) {
+    if (score == 150) {
         scoreNow = score;
         localStorage.setItem('scoreNow', scoreNow);
         
