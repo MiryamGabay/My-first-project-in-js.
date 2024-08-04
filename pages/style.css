@@ -1,0 +1,134 @@
+#game {
+    background-image: url(../images/night.gif);
+    position: relative;
+}
+
+body {
+    
+    background-image: url(../images/night.gif);
+}
+#header{
+    text-align: center;
+    position: absolute;
+    width: 98vw;
+    height: 5vh;
+    border-bottom: 0.2vh; 
+    border-bottom-style: solid;
+    border-bottom-color:bisque;
+    margin: auto;
+    top: 0%;
+}
+
+#hp , #logIn {
+    background-image: url(../gifs/vI.gif);
+    text-align: center;
+}
+
+#mario {
+    width: auto;
+    /* height: 10vh; */
+    position: absolute;
+    /* margin-top: 83vh;                                                                                                                                                                  */
+}
+
+#star {
+    height: 2vw;
+    width: auto;
+}
+
+button,input {
+    width: 9vw;
+    height: 2vw;
+    color: black;
+    background-color: bisque;
+    font-family: cursive;
+    text-align: center;
+}
+
+button:hover ,input:hover {
+    background-color: black;
+    border-color: bisque;
+    color: bisque;
+}
+
+#instructions,#logInForm, #divC {
+    background-color: black;
+    opacity: 0.9;
+    direction: ltr;
+    margin: auto;
+    /* margin-bottom: 15vh; */
+    shape-margin: 0%;
+    font-family: cursive;
+    font-size: 1.5vw;
+    color: bisque;
+    
+    border: 2px;
+    border-style: ridge;
+    border-color: bisque;
+    position: relative;
+    
+    width: 60vw;
+    height: 60vh;
+    text-align: center;
+}
+#divC{
+    position: absolute;
+    margin-left: 30vw;
+    margin-top: 10vh;
+
+    width: 40vw;
+    height: 40vh;
+}
+#divC img{
+    position: absolute;
+    margin-bottom: 0%;
+    bottom: 0vw;
+    width: auto;
+    height: 45vh;
+    position: absolute;
+    top: 8vh;
+    right: 0vw;
+    height: 25vh;
+}
+#logInForm{
+    width: 60vw;
+
+}
+
+#mario2,#stars {
+    width: auto;
+    height: 45vh;
+    position: absolute;
+    top: 45vh;
+    right: 10vw;
+}
+
+#stars{
+     right: 63vw;
+     top: 47vh;
+     height: 35vh;
+}
+
+.img {
+    position: absolute;
+
+}
+#bgIndex , #bgIndex{
+    background-image: url(../gifs/87zr.gif);
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.14;
+    position: absolute;
+    z-index: -1;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+h1{
+    font-size: 5vw;
+    font-family: cursive;
+    color: bisque;
+    margin: 3vh;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level B</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../images/marioBigAndSmall.gif" type="image">
+</head>
+
+<body>
+
+    <audio id="myAudio" hidden loop>
+        <source src="../music/bgMusic.mp3" type="audio/mp3">
+    </audio>
+
+    <div id="bgIndex"></div>
+
+    <div id="header">
+
+        <button id="pause" onclick="pause()">&#x25AE;&#x25AE;</button>
+        <button id="AudioBottom" onclick="playAudio()">&#128264;</button>
+        <button id="scoreBtm">Score: 0</button>
+        <button id="lifeBtm">Life: 3</button>
+    </div>
+    
+
+    <div id="divC">
+        <h2 id="welcomeName">Welcome </h2>
+        <h3>Level B</h3>
+        <div id="p">
+            <p>
+                Hello, we wish you the best of luck.
+            </p>
+        </div>
+        <button onclick="start()">Start</button>
+        <br>
+        <img src="../gifs/5UKF.gif" alt="" style="height: 15vh;margin-top: 8vh;">
+    </div>
+
+    <div id="divC" style="display:none">
+        <h2 id="welcomeName">Well done </h2>
+        <h3>CHAMPION!!!!!</h3>
+        <p id="endPoint">
+            points.
+        </p>
+        <img src="../images/shiningMario.gif" alt="">
+    </div>
+    <div id="divC" style="display: none">
+        <h2 id="welcomeName">Well done </h2>
+        <h3>Congratulations!</h3>
+        <p id="endPoint">
+            points.
+        </p>
+
+        <a href="logIn.html"> <button>Good Bay</button></a>
+
+        <br>
+        <img src="../images/marioClups.gif" alt="">
+
+    </div>
+    <div id="divC" style="display: none">
+        <h2>Failure !!</h2>
+        <p id="endPoint">
+            points.
+        </p>
+        <p id="endName">we share your sorrow...</p>
+        
+        <a href="instructions.html"> <button >Play again</button></a>
+        <a href="logIn.html"> <button>Close</button></a>
+        <br>
+        <img src="../images/nodes.gif" alt="">
+    </div>
+
+    <img src="../images/marioBreathes.gif" id="mario" alt="mario">
+
+    <script src="levelB.js"></script>
+
+</body>
+
+</html>

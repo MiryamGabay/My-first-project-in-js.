@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log In</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../images/marioBigAndSmall.gif" type="image">
+</head>
+<body id="logIn">
+
+        <h1>MARIO</h1>
+    
+        <div id="logInForm">
+            
+            <h2>Enter Your Details:</h2>
+            
+            <form action="instructions.html" onsubmit="return validate()">
+                <div>
+                    User Name: <br>
+                    <input type="text" id="userName" placeholder="Your Name" required />
+                </div>
+                <br>
+                <div>
+                    Password: <br>
+                    <input type="password" name="password" id="password" minlength="6" maxlength="6" required />
+                </div>
+                <br><br><br>
+                <input type="submit" value="Log In" onclick="removeLocalStorage()" />
+                
+            </form>
+            
+        
+        </div>
+        <div>
+            <img class="img" id="mario2" src="../images/mario_up_and_down.gif" alt="mario">
+            <!-- <img class="img" id="stars" src="../images/shiningStars.gif" alt="stars"> -->
+    
+        </div>
+    
+        <script src="logIn.js"></script>
+    </body>
+</html>
